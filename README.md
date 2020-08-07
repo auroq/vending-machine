@@ -6,12 +6,12 @@ https://www.usmint.gov/learn/coin-and-medal-programs/coin-specifications
 
 | Denomination | Composition | Weight | Diameter | Thickness | Edge | No. of Reed |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| Cent | Copper Plated Zinc </ br> 2.5% Cu </ br> Balance Zn | 2.500 g | 0.750 in. </ br> 19.05 mm | 1.52 mm | Plain | N/A |
-| Nickel | Cupro-Nickel </ br> 25% Ni </ br> Balance Cu | 5.000 g | 0.835 in. </ br> 21.21 mm | 1.95 mm | Plain | N/A |
-| Dime | Cupro-Nickel </ br> 8.33% Ni </ br> Balance Cu | 2.268 g | 0.705 in. </ br> 17.91 mm | 1.35 mm | Reeded | 118 |
-| Quarter Dollar | Cupro-Nickel </ br> 8.33% Ni </ br> Balance Cu | 5.670 g | 0.955 in. </ br> 24.26 mm | 1.75 mm | Reeded | 119 |
-| Half Dollar | Cupro-Nickel </ br> 8.33% Ni </ br> Balance Cu | 11.340 g | 1.205 in. </ br> 30.61 mm | 2.15 mm | Reeded | 150 |
-| Dollar | Manganese-Brass </ br> 88.5% Cu </ br> 6% Zn </ br> 3.5% Mn </ br> 2% Ni | 8.1 g | 1.043 in. </ br> 26.49 mm | 2.00 mm | Edge-Lettering | N/A |
+| Cent | Copper Plated Zinc <br /> 2.5% Cu <br /> Balance Zn | 2.500 g | 0.750 in. <br /> 19.05 mm | 1.52 mm | Plain | N/A |
+| Nickel | Cupro-Nickel <br /> 25% Ni <br /> Balance Cu | 5.000 g | 0.835 in. <br /> 21.21 mm | 1.95 mm | Plain | N/A |
+| Dime | Cupro-Nickel <br /> 8.33% Ni <br /> Balance Cu | 2.268 g | 0.705 in. <br /> 17.91 mm | 1.35 mm | Reeded | 118 |
+| Quarter Dollar | Cupro-Nickel <br /> 8.33% Ni <br /> Balance Cu | 5.670 g | 0.955 in. <br /> 24.26 mm | 1.75 mm | Reeded | 119 |
+| Half Dollar | Cupro-Nickel <br /> 8.33% Ni <br /> Balance Cu | 11.340 g | 1.205 in. <br /> 30.61 mm | 2.15 mm | Reeded | 150 |
+| Dollar | Manganese-Brass <br /> 88.5% Cu <br /> 6% Zn <br /> 3.5% Mn <br /> 2% Ni | 8.1 g | 1.043 in. <br /> 26.49 mm | 2.00 mm | Edge-Lettering | N/A |
 
 # Instructions
 
