@@ -1,10 +1,10 @@
 cabal-version: 1.12
 
--- This file has been generated from package.yaml by hpack version 0.31.2.
+-- This file has been generated from package.yaml by hpack version 0.34.2.
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: a4e02b625ed0383567d2dcdf00147d46f8d53cec596f9e1d708e385b2acbe284
+-- hash: 9f403c19e494737ab0d8539a35cd9642397b324651c25bd06a4e683a843cd8b5
 
 name:           vending-machine
 version:        0.1.0.0
@@ -26,7 +26,7 @@ source-repository head
 
 library
   exposed-modules:
-      Lib
+      Machine
   other-modules:
       Paths_vending_machine
   hs-source-dirs:
@@ -44,6 +44,7 @@ test-suite vending-machine-test
   type: exitcode-stdio-1.0
   main-is: Spec.hs
   other-modules:
+      MachineSpec
       Paths_vending_machine
   hs-source-dirs:
       test
@@ -55,4 +56,5 @@ test-suite vending-machine-test
     , hspec
     , split
     , validity
+    , vending-machine
   default-language: Haskell2010
