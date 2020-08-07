@@ -1,5 +1,9 @@
 # Vending Machine Kata
 
+## Coin Specifications
+
+https://www.usmint.gov/learn/coin-and-medal-programs/coin-specifications
+
 # Instructions
 
 These instructions are not my own. They were taken from https://gist.githubusercontent.com/Bogghead/e76f3323f3fac005ad9e8b60eee03a34/raw/800cbb550cf1a3030ffdfae02aa77413f6568f91/vendingMachineKata.txt on August 06, 2020.
