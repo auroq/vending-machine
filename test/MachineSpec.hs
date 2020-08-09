@@ -58,6 +58,31 @@ spec = do
         total `shouldBe` expectedTotal
       it "should return no invalid coins" $
         returned `shouldBe` [fraud, dollar, halfDollar, penny]
+  describe "when selecting a product" $ do
+    context "and total is more that cost" $ do
+      let total = 110
+      let product = Cola
+      let (returned, change) = selectProduct total product
+      it "should return the product" $
+        returned `shouldBe` Just product
+      it "should return correct change" $
+        change `shouldBe` 10
+    context "and total is less that cost" $ do
+      let total = 45
+      let product = Chips
+      let (returned, change) = selectProduct total product
+      it "should not return the product" $
+        returned `shouldBe` Nothing
+      it "should return total" $
+        change `shouldBe` 45
+    context "and total equals cost" $ do
+      let total = 65
+      let product = Candy
+      let (returned, change) = selectProduct total product
+      it "should return the product" $
+        returned `shouldBe` Just product
+      it "should not return change" $
+        change `shouldBe` 0
 
 
 identificationTest :: String -> Maybe Integer -> Coin -> SpecWith ()

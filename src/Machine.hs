@@ -1,11 +1,15 @@
 module Machine
     ( getValue
     , Coin (..)
+    , Product (..)
     , acceptCoins
+    , selectProduct
     ) where
 
 
 data Coin = Coin { weight :: Float, diameter :: Float, thickness :: Float, reeds :: Integer } deriving (Show, Eq)
+
+data Product = Cola | Chips | Candy deriving (Show, Eq)
 
 getValue :: Coin -> Maybe Integer
 getValue (Coin 5.000  21.21 1.95 0)     = Just 5   --Nickel
@@ -25,3 +29,15 @@ acceptCoin (total, rejected) coin =
   in case maybeVal of
     Just val -> (total + val, rejected)
     Nothing  -> (total, coin:rejected)
+
+
+selectProduct :: Integer -> Product -> (Maybe Product, Integer)
+selectProduct total product
+  | total < cost  = (Nothing, total)
+  | otherwise     = (Just product, total - cost)
+  where cost = getCost product
+
+getCost :: Product -> Integer
+getCost Cola  = 100
+getCost Chips = 50
+getCost Candy = 65
